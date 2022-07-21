@@ -57,13 +57,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav  mx-auto ">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.blade.php">Inicio </a>
+                            <a class="nav-link" href="{{route('index')}}">Inicio </a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="menu.blade.php">Productos <span class="sr-only">(current)</span> </a>
+                            <a class="nav-link" href="{{route('menu')}}">Productos <span class="sr-only">(current)</span> </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.blade.php">Acerca de</a>
+                            <a class="nav-link" href="{{route('about')}}">Acerca de</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="book.blade.php">Contactanos</a>
