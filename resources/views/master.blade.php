@@ -13,7 +13,9 @@
     <meta name="author" content="" />
     <link rel="shortcut icon" href="/images/favicon.png" type="">
 
+
     <title> Feane </title>
+
 
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
@@ -68,6 +70,8 @@
                         </li>
                     </ul>
 
+                    @yield('contenido')
+
                 </div>
             </nav>
         </div>
@@ -75,6 +79,7 @@
     <!-- end header section -->
 </div>
 
+@yield('content')
 
 
 <!-- footer section -->
@@ -175,8 +180,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
 <!-- custom js -->
 <script src="/js/custom.js"></script>
-<!-- Google Map -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+
 </script>
 <!-- End Google Map -->
 

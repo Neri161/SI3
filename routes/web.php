@@ -24,4 +24,10 @@ Route::get('/home', function () {
 Route::get('/master', function () {
     return view('master');
 });
+Route::get('/menu', function () {
+    return view('menu');
+});
+Route::get('/about', function () {
+    return view('about');
+});
 
