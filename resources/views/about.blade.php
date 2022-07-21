@@ -3,7 +3,6 @@
 
 @section('content')
     <!-- about section -->
-
     <section class="about_section layout_padding">
         <div class="container  ">
 
@@ -34,6 +33,5 @@
             </div>
         </div>
     </section>
-
     <!-- end about section -->
 @endsection()
