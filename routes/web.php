@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\registroMailChimp;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -27,4 +28,9 @@ Route::get('/menu', function () {
 Route::get('/about', function () {
     return view('about');
 })->name("about");
-
+Route::get('/book', function () {
+    return view('book');
+})->name("book");
+Route::post('/suscribirse', [registroMailChimp::class, 'registrarMail'],function(){
+    return view('book');
+})->name('suscribirse');

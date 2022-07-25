@@ -59,14 +59,14 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{route('index')}}">Inicio </a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="{{route('menu')}}">Productos <span class="sr-only">(current)</span> </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{route('about')}}">Acerca de</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="book.blade.php">Contactanos</a>
+                            <a class="nav-link" href="{{route('book')}}">Contactanos</a>
                         </li>
                     </ul>
 

@@ -53,7 +53,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav  mx-auto ">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="{{route('index')}}">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{route('menu')}}">Menu</a>
@@ -62,7 +62,7 @@
                             <a class="nav-link" href="{{route('about')}}">Acerca de</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="book.html">Contactanos</a>
+                            <a class="nav-link" href="{{route('book')}}">Contactanos</a>
                         </li>
                     </ul>
                 </div>
