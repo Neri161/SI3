@@ -44,7 +44,7 @@
     <header class="header_section">
         <div class="container">
             <nav class="navbar navbar-expand-lg custom_nav-container ">
-                <a class="navbar-brand" href="index.blade.php">
+                <a class="navbar-brand" href="{{route('index')}}">
             <span>
               Feane
             </span>
@@ -63,7 +63,7 @@
                             <a class="nav-link" href="{{route('menu')}}">Productos <span class="sr-only">(current)</span> </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{route('about')}}">Acerca de</a>
+                            <a class="nav-link" href="{{route('about')}}">Aviso De Privacidad</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{route('book')}}">Contactanos</a>
